@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	gopg "github.com/go-pg/pg"
 	"github.com/jackc/go_db_bench/raw"
 	"github.com/jackc/pgx"
-	gopg "gopkg.in/pg.v3"
 )
 
 var (
